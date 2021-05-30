@@ -29,10 +29,10 @@ function RenderComments({comments}) {
                         </div>
                     );
                 })}
-            /</div>
+            </div>
         );
     }
-    return <div />;
+    return <div />
 }
 
 function CampsiteInfo(props) {
@@ -41,12 +41,12 @@ function CampsiteInfo(props) {
             <div className="container">
                 <div className="row">   
                     <RenderCampsite campsite={props.campsite} />
-                    <RenderComments comments={props.campsite.comments} />
+                    <RenderComments comments={props.comments} />
                 </div>
-            /</div>
+            </div>
         );
     }
-    return <div />;
+    return <div />
 }
 
 export default CampsiteInfo
