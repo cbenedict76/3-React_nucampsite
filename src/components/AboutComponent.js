@@ -91,4 +91,5 @@ function RenderPartner({partner}) {
     );
 }
 
+
 export default About;
